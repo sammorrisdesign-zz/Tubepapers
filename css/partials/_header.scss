@@ -1,0 +1,12 @@
+header {
+	padding: 24px 0;
+	background-color: aqua;
+}
+
+.header__logo {
+	@include grid-width(3);
+}
+
+.header__nav {
+	@include grid_width(5, last);
+}

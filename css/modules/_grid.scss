@@ -1,0 +1,36 @@
+$fixed-column-width: 120px;
+$fixed-gutter: 20px;
+$fluid-column-width: 10.909%;
+$fluid-gutter: 1.818%;
+$max-columns: 8;
+
+@mixin grid-width($columns:$max-columns, $last:"") {
+	width: ($columns * $fixed-column-width) + (($columns - 1) * $fixed-gutter);
+
+	@if $columns == $max-columns {
+		padding-left: $fixed-gutter;
+		padding-right: $fixed-gutter;
+		margin: 0 auto;
+		clear: both;
+	} @else {
+		float: left;
+		@if $last == "" {
+			margin-right: $fixed-gutter;
+		} @else {
+			clear: right;
+		}
+	}
+	
+	// Fluid Output
+	@include mq($to: fixed) {
+		width: ($columns * $fluid-column-width) + (($columns - 1) * $fluid-gutter);
+		
+		@if $columns == $max-columns {
+			padding-left: $fluid-gutter;
+			padding-right: $fluid-gutter;
+		} @else if $last == "" {
+			margin-right: $fluid-gutter;
+		}
+	}
+
+}

@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.container {
+  width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  clear: both; }
+  @media all and (max-width: 71.24em) {
+    .container {
+      width: 99.998%;
+      padding-left: 1.818%;
+      padding-right: 1.818%; } }
+  @media all and (min-width: 71.25em) {
+    .container {
+      box-sizing: content-box; } }
+
+header {
+  padding: 24px 0;
+  background-color: aqua; }
+
+.header__logo {
+  width: 400px;
+  float: left;
+  margin-right: 20px; }
+  @media all and (max-width: 71.24em) {
+    .header__logo {
+      width: 36.363%;
+      margin-right: 1.818%; } }
+
+.header__nav {
+  width: 680px;
+  float: left;
+  clear: right; }
+  @media all and (max-width: 71.24em) {
+    .header__nav {
+      width: 61.817%; } }

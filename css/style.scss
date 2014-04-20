@@ -1,9 +1,10 @@
 // font-family: "p22-underground";
 
+@import "vendor/sass-mq/_mq.scss";
+
 // Modules
+@import "modules/_grid.scss";
 
 // Partials
+@import "partials/_base.scss";
 @import "partials/_header.scss";
-
-// Vendor
-@import "vendor/sass-mq/_mq.scss";
