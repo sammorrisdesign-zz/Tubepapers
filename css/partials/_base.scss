@@ -21,3 +21,14 @@ body {
 	}
 	overflow: auto;
 }
+
+a {
+	color: $grey;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+
+a:hover {
+	opacity: 0.75;
+}

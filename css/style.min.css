@@ -59,6 +59,15 @@ body {
     .container {
       box-sizing: content-box; } }
 
+a {
+  color: #a7a9aa;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out; }
+
+a:hover {
+  opacity: 0.75; }
+
 header {
   padding: 24px 0;
   position: fixed;
@@ -95,10 +104,31 @@ header {
     .header__nav {
       width: 61.817%; } }
 
+.header__nav__title {
+  font-size: 3.0rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px; }
+
+.header__nav__col {
+  width: 20%;
+  float: left; }
+
+.header__nav__col__link {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.8rem; }
+
 main {
   width: 100%;
-  height: 100%;
-  background: url("../assets/images/hammersmith_bg.png"); }
+  height: 100%; }
 
 .hammersmith header {
   background-color: #151f23; }
+.hammersmith .header__nav__title {
+  color: #f1d416; }
+.hammersmith .header__nav__col--backgrounds .header__nav__col__link {
+  color: #2cce6d; }
+.hammersmith main {
+  background-image: url("../assets/images/hammersmith_bg.png");
+  background-size: 55%; }

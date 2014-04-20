@@ -26,3 +26,21 @@ header {
 .header__nav {
 	@include grid_width(5, last);
 }
+
+.header__nav__title {
+	font-size: 3.0rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.header__nav__col {
+	width: 20%;
+	float: left;
+}
+
+.header__nav__col__link {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 1.8rem;
+}

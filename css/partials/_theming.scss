@@ -2,4 +2,19 @@
 	header {
 		background-color: $hammersmith-bg;
 	}
+	
+	.header__nav__title {
+		color: $hammersmith-pri;
+	}
+	
+	.header__nav__col--backgrounds {
+		.header__nav__col__link {
+			color: $hammersmith-sec;
+		}
+	}
+	
+	main {
+		background-image: url("../assets/images/hammersmith_bg.png");
+		background-size: 55%;
+	}
 }
