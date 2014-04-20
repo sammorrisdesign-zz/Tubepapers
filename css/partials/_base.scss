@@ -2,8 +2,14 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
 	margin: 0;
+	font-family: "p22-underground", sans-serif;
 }
 
 .container {
@@ -11,4 +17,5 @@ body {
 	@include mq($from: fixed) {
 		box-sizing: content-box;
 	}
+	overflow: auto;
 }

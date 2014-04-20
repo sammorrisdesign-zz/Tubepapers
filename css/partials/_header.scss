@@ -5,6 +5,21 @@ header {
 
 .header__logo {
 	@include grid-width(3);
+	text-transform: uppercase;
+	color: $white;
+	font-size: 3.0rem;
+	font-weight: bold;
+}
+
+.header__logo__papers {
+	color: $grey;
+	font-size: 2.4rem;
+	margin-left: 4px;
+	background-image: linear-gradient(to bottom,$grey 50%,$grey 50%);
+	background-repeat: repeat-x;
+	background-size: 2px 2px;
+	background-position: 2px 20px;
+	vertical-align: top;
 }
 
 .header__nav {

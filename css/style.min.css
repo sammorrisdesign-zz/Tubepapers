@@ -1,15 +1,53 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 * {
   box-sizing: border-box; }
 
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased; }
+
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: "p22-underground", sans-serif; }
 
 .container {
   width: 1100px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-  clear: both; }
+  clear: both;
+  overflow: auto; }
   @media all and (max-width: 71.24em) {
     .container {
       width: 99.998%;
@@ -26,11 +64,25 @@ header {
 .header__logo {
   width: 400px;
   float: left;
-  margin-right: 20px; }
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 3.0rem;
+  font-weight: bold; }
   @media all and (max-width: 71.24em) {
     .header__logo {
       width: 36.363%;
       margin-right: 1.818%; } }
+
+.header__logo__papers {
+  color: #a7a9aa;
+  font-size: 2.4rem;
+  margin-left: 4px;
+  background-image: linear-gradient(to bottom, #a7a9aa 50%, #a7a9aa 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 2px 20px;
+  vertical-align: top; }
 
 .header__nav {
   width: 680px;
@@ -39,3 +91,6 @@ header {
   @media all and (max-width: 71.24em) {
     .header__nav {
       width: 61.817%; } }
+
+.hammersmith header {
+  background-color: #151f23; }
