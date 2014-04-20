@@ -71,7 +71,12 @@ a:hover {
 header {
   padding: 24px 0;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  transition: background .25s ease-in-out;
+  -moz-transition: background .25s ease-in-out;
+  -webkit-transition: background .25s ease-in-out; }
+  header:hover .header__nav__col {
+    opacity: 1; }
 
 .header__logo {
   width: 400px;
@@ -112,7 +117,11 @@ header {
 
 .header__nav__col {
   width: 20%;
-  float: left; }
+  float: left;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out; }
 
 .header__nav__col__link {
   display: block;
@@ -124,7 +133,9 @@ main {
   height: 100%; }
 
 .hammersmith header {
-  background-color: #151f23; }
+  background-color: rgba(21, 31, 35, 0.9); }
+  .hammersmith header:hover {
+    background-color: #151f23; }
 .hammersmith .header__nav__title {
   color: #f1d416; }
 .hammersmith .header__nav__col--backgrounds .header__nav__col__link {

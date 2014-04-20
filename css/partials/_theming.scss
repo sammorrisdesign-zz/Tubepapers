@@ -1,6 +1,9 @@
 .hammersmith {
 	header {
-		background-color: $hammersmith-bg;
+		background-color: rgba($hammersmith-bg, 0.9);
+		&:hover {
+			background-color: $hammersmith-bg;
+		}
 	}
 	
 	.header__nav__title {
