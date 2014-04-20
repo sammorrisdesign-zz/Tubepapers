@@ -2,6 +2,7 @@ header {
 	padding: 24px 0;
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 	transition: background .25s ease-in-out;
 	-moz-transition: background .25s ease-in-out;
 	-webkit-transition: background .25s ease-in-out;

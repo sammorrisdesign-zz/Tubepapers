@@ -15,9 +15,35 @@
 			color: $hammersmith-sec;
 		}
 	}
-	
-	main {
-		background-image: url("../assets/images/hammersmith_bg.png");
-		background-size: 55%;
+}
+
+.background__item--hammersmith {
+	background-image: url("../assets/images/hammersmith_bg.png");
+	background-size: 55%;
+	display: block;
+}
+
+.victoria {
+	header {
+		background-color: rgba($victoria-bg, 0.9);
+		&:hover {
+			background-color: $victoria-bg;
+		}
 	}
+	
+	.header__nav__title {
+		color: $victoria-pri;
+	}
+	
+	.header__nav__col--backgrounds {
+		.header__nav__col__link {
+			color: $victoria-sec;
+		}
+	}
+}
+
+.background__item--victoria {
+	background-image: url("../assets/images/victoria_bg.png");
+	background-size: 55%;
+	display: block;
 }
