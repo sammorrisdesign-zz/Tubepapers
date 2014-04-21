@@ -50,12 +50,10 @@ body {
   padding-right: 20px;
   margin: 0 auto;
   clear: both;
+  width: 99.998%;
+  padding-left: 1.818%;
+  padding-right: 1.818%;
   overflow: auto; }
-  @media all and (max-width: 71.24em) {
-    .container {
-      width: 99.998%;
-      padding-left: 1.818%;
-      padding-right: 1.818%; } }
   @media all and (min-width: 71.25em) {
     .container {
       box-sizing: content-box; } }
@@ -84,14 +82,12 @@ header {
   width: 400px;
   float: left;
   margin-right: 20px;
+  width: 36.363%;
+  margin-right: 1.818%;
   text-transform: uppercase;
   color: white;
   font-size: 3.0rem;
   font-weight: bold; }
-  @media all and (max-width: 71.24em) {
-    .header__logo {
-      width: 36.363%;
-      margin-right: 1.818%; } }
 
 .header__logo__papers {
   color: #a7a9aa;
@@ -106,10 +102,8 @@ header {
 .header__nav {
   width: 680px;
   float: left;
-  clear: right; }
-  @media all and (max-width: 71.24em) {
-    .header__nav {
-      width: 61.817%; } }
+  clear: right;
+  width: 61.817%; }
 
 .header__nav__title {
   font-size: 3.0rem;
@@ -138,7 +132,7 @@ main {
 
 .background {
   height: 100%;
-  -webkit-transition: -webkit-transform 1s cubic-bezier(0.5, 0.05, 0.4, 1); }
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.5, 1.05, 0.4, 1.2); }
 
 .background.animating-left .background__item,
 .background.animating-right .background__item {
@@ -166,7 +160,7 @@ main {
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
     filter: blur(3px);
-    -webkit-transform: skewX(8deg); }
+    -webkit-transform: skewX(-4deg); }
 
   100% {
     -webkit-filter: blur(0px);
@@ -190,7 +184,7 @@ main {
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
     filter: blur(3px);
-    -webkit-transform: skewX(-8deg); }
+    -webkit-transform: skewX(4deg); }
 
   100% {
     -webkit-filter: blur(0px);
@@ -210,7 +204,7 @@ main {
   filter: blur(0px); }
 
 .hammersmith header {
-  background-color: rgba(21, 31, 35, 0.9); }
+  background-color: rgba(21, 31, 35, 0); }
   .hammersmith header:hover {
     background-color: #151f23; }
 .hammersmith .header__nav__title {
@@ -220,11 +214,10 @@ main {
 
 .background__item--hammersmith {
   background-image: url("../assets/images/hammersmith_bg.png");
-  background-size: 55%;
   display: block; }
 
 .victoria header {
-  background-color: rgba(20, 60, 146, 0.9); }
+  background-color: rgba(20, 60, 146, 0); }
   .victoria header:hover {
     background-color: #143c92; }
 .victoria .header__nav__title {
@@ -234,5 +227,4 @@ main {
 
 .background__item--victoria {
   background-image: url("../assets/images/victoria_bg.png");
-  background-size: 55%;
   display: block; }

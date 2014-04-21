@@ -2,8 +2,8 @@ var width = $(window).width();
 var slides = $(".background__item").length;
 var position = 1;
 
-$(".background").width(width * slides);
-$(".background__item").width(width);
+$(".background").width((width * 2) * slides);
+$(".background__item").width(width * 2);
 
 function transition(direction) {
 
@@ -19,9 +19,7 @@ function transition(direction) {
 		position = 1;
 	}
 	
-	console.log(position);
-	
-	$(".background").css({"-webkit-transform": "translate3d(-" + width * (position - 1) + "px, 0px, 0px)"}).addClass("animating-" + direction);
+	$(".background").css({"-webkit-transform": "translate3d(-" + (width * 2) * (position - 1) + "px, 0px, 0px)"}).addClass("animating-" + direction);
 	$(".background").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
 		$(this).removeClass("animating-" + direction)
 	});

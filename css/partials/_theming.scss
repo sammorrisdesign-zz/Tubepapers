@@ -1,6 +1,8 @@
+// Turn into a mixin
+
 .hammersmith {
 	header {
-		background-color: rgba($hammersmith-bg, 0.9);
+		background-color: rgba($hammersmith-bg, 0);
 		&:hover {
 			background-color: $hammersmith-bg;
 		}
@@ -19,13 +21,12 @@
 
 .background__item--hammersmith {
 	background-image: url("../assets/images/hammersmith_bg.png");
-	background-size: 55%;
 	display: block;
 }
 
 .victoria {
 	header {
-		background-color: rgba($victoria-bg, 0.9);
+		background-color: rgba($victoria-bg, 0);
 		&:hover {
 			background-color: $victoria-bg;
 		}
@@ -44,6 +45,5 @@
 
 .background__item--victoria {
 	background-image: url("../assets/images/victoria_bg.png");
-	background-size: 55%;
 	display: block;
 }
