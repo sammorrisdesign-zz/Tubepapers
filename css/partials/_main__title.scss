@@ -10,8 +10,3 @@
 	opacity: 0.8;
 	cursor: pointer;
 }
-
-.main__title--victoria {
-	background: url("../assets/images/victoria_bg.png") no-repeat;
-	@include background-clip(text);
-}

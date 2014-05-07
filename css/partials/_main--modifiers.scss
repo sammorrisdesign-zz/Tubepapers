@@ -1,0 +1,13 @@
+.main--victoria {
+	.main__title {
+		background: url("../assets/images/victoria_bg.png") no-repeat;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $victoria;
+		&:hover {
+			color: $victoria-hover;
+		}
+	}
+}
