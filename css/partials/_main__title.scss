@@ -1,3 +1,7 @@
+main {
+	margin-bottom: 80px;
+}
+
 .main__title {
 	font-size: 7.2rem;
 	text-transform: uppercase;
@@ -9,4 +13,16 @@
 .main__title:hover {
 	opacity: 0.8;
 	cursor: pointer;
+}
+
+.main__element {
+	width: 100%;
+	overflow: auto;
+	margin: 20px 0;
+	
+	&:hover {
+		.main__links {
+			display: block;
+		}
+	}
 }

@@ -1,6 +1,113 @@
+.main--bakerloo {
+	.main__title {
+		background: url("../assets/images/bakerloo_bg.png");
+		background-position: 102px 22px;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $bakerloo;
+		&:hover {
+			color: $bakerloo-hover;
+		}
+	}
+}
+
+.main--barman {
+	.main__title {
+		background: url("../assets/images/barman_bg.png");
+		background-position: center center;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $barman;
+		&:hover {
+			color: $barman-hover;
+		}
+	}
+}
+
+.main--central {
+	.main__title {
+		background: url("../assets/images/central_bg.png");
+		background-position: center center;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $central;
+		&:hover {
+			color: $central-hover;
+		}
+	}
+}
+
+.main--district {
+	.main__title {
+		background: url("../assets/images/district_bg.png");
+		background-position: center center;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $district;
+		&:hover {
+			color: $district;
+		}
+	}
+}
+
+.main--hammersmith {
+	.main__title {
+		background: url("../assets/images/hammersmith_bg.png");
+		background-position: top;
+		background-size: 17%;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $hammersmith;
+		&:hover {
+			color: $hammersmith-hover;
+		}
+	}
+}
+
+.main--metropolitan {
+	.main__title {
+		background: url("../assets/images/metropolitan_bg.png");
+		background-position: center center;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $metropolitan;
+		&:hover {
+			color: $metropolitan-hover;
+		}
+	}
+}
+
+.main--overground {
+	.main__title {
+		background: url("../assets/images/overground_bg.png");
+		background-position: center center;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $overground;
+		&:hover {
+			color: $overground-hover;
+		}
+	}
+}
+
 .main--victoria {
 	.main__title {
-		background: url("../assets/images/victoria_bg.png") no-repeat;
+		background: url("../assets/images/victoria_bg.png");
+		background-position: center center;
 		@include background-clip(text);
 	}
 	
@@ -8,6 +115,21 @@
 		color: $victoria;
 		&:hover {
 			color: $victoria-hover;
+		}
+	}
+}
+
+.main--waterloo {
+	.main__title {
+		background: url("../assets/images/waterloo_bg.png");
+		background-position: center center;
+		@include background-clip(text);
+	}
+	
+	.main__links__link {
+		color: $waterloo;
+		&:hover {
+			color: $waterloo-hover;
 		}
 	}
 }
