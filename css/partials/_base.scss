@@ -10,17 +10,18 @@ html {
 
 html,
 body {
-	height: 100%;
 	margin: 0;
-	background-color: $grey;
+	background-color: $background;
 }
 
 .container {
-	@include grid-width();
-	@include mq($from: fixed) {
-		box-sizing: content-box;
-	}
+	width: 900px;
+	margin: 0 auto;
 	overflow: auto;
+	padding: 0 20px;
+	@include mq($to: fixed) {
+		width: 100%;
+	}
 }
 
 a {
