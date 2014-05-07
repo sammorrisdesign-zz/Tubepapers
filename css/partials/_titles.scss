@@ -1,0 +1,17 @@
+.main__title {
+	font-size: 7.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	@include text-fill-color(transparent);
+}
+
+.main__title:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.main__title--victoria {
+	background: url("../assets/images/victoria_bg.png") no-repeat;
+	@include background-clip(text);
+}
