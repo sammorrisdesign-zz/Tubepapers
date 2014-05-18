@@ -1,7 +1,6 @@
 .main--bakerloo {
 	.main__title {
-		background: url("../assets/images/bakerloo_bg.png");
-		background-position: 102px 22px;
+		background-image: url("../assets/images/bakerloo_bg.png");
 		@include background-clip(text);
 	}
 	
@@ -15,8 +14,8 @@
 
 .main--barman {
 	.main__title {
-		background: url("../assets/images/barman_bg.png");
-		background-position: center center;
+		background-image: url("../assets/images/barman_bg.png");
+		background-size: 80%;
 		@include background-clip(text);
 	}
 	
@@ -30,8 +29,8 @@
 
 .main--central {
 	.main__title {
-		background: url("../assets/images/central_bg.png");
-		background-position: center center;
+		background-image: url("../assets/images/central_bg.png");
+		background-size: 40%;
 		@include background-clip(text);
 	}
 	
@@ -45,8 +44,8 @@
 
 .main--district {
 	.main__title {
-		background: url("../assets/images/district_bg.png");
-		background-position: center center;
+		background-image: url("../assets/images/district_bg.png");
+		background-size: 65%;
 		@include background-clip(text);
 	}
 	
@@ -60,8 +59,7 @@
 
 .main--hammersmith {
 	.main__title {
-		background: url("../assets/images/hammersmith_bg.png");
-		background-position: top;
+		background-image: url("../assets/images/hammersmith_bg.png");
 		background-size: 17%;
 		@include background-clip(text);
 	}
@@ -76,8 +74,8 @@
 
 .main--metropolitan {
 	.main__title {
-		background: url("../assets/images/metropolitan_bg.png");
-		background-position: center center;
+		background-image: url("../assets/images/metropolitan_bg.png");
+		background-size: 80%;
 		@include background-clip(text);
 	}
 	
@@ -91,8 +89,8 @@
 
 .main--overground {
 	.main__title {
-		background: url("../assets/images/overground_bg.png");
-		background-position: center center;
+		background-image: url("../assets/images/overground_bg.png");
+		background-size: 50%;
 		@include background-clip(text);
 	}
 	
@@ -106,8 +104,7 @@
 
 .main--victoria {
 	.main__title {
-		background: url("../assets/images/victoria_bg.png");
-		background-position: center center;
+		background-image: url("../assets/images/victoria_bg.png");
 		@include background-clip(text);
 	}
 	
@@ -121,8 +118,8 @@
 
 .main--waterloo {
 	.main__title {
-		background: url("../assets/images/waterloo_bg.png");
-		background-position: center center;
+		background-image: url("../assets/images/waterloo_bg.png");
+		background-size: 40%;
 		@include background-clip(text);
 	}
 	

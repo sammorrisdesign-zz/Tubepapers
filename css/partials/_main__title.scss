@@ -6,25 +6,22 @@ main {
 	font-size: 7.2rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	text-align: center;
+	display: inline-block;
+	background-size: 100%;
 	@include text-fill-color(transparent);
+	background-position: center center;
+	@include transition(background-position, 0.5s, ease-out);
 }
 
 .main__title:hover {
 	opacity: 0.8;
 	cursor: pointer;
+	background-position-x: -500px;
 }
 
 .main__element {
 	width: 100%;
 	overflow: auto;
 	margin: 20px 0;
-	
-/*
-	&:hover {
-		.main__links {
-			display: block;
-		}
-	}
-*/
+	text-align: center;
 }
