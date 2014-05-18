@@ -3,14 +3,17 @@ main {
 }
 
 .main__title {
-	font-size: 7.2rem;
+	font-size: 6.6rem;
 	text-transform: uppercase;
 	font-weight: bold;
 	display: inline-block;
-	background-size: 100%;
+	width: 600px;
 	background-position: center center;
 	@include text-fill-color(transparent);
 	@include transition(background-position, 0.5s, ease-out);
+	background-repeat: no-repeat;
+	opacity: 0;
+	@include animation("main-in 1s");
 }
 
 .main__element {
@@ -21,9 +24,23 @@ main {
 	
 	&:hover {
 		.main__title {
-			background-position-x: -100px;
+			background-position-x: -200px;
 			opacity: 0.8;
 			cursor: pointer;
 		}
+	}
+}
+
+@include keyframes(main-in) {
+	0% {
+		opacity: 1;
+		background-position: 600px;
+	}
+	30% {
+		opacity: 1;
+		background-position: 600px;
+	}
+	100% {
+		opacity: 1;
 	}
 }

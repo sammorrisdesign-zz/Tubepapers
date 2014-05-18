@@ -1,14 +1,9 @@
-$(window).ready(function() {
-	// Parallax window
-/*
-	$(".main__title").mousemove(function(e) {
-		var relX = e.pageX - $(this).offset().left;
-		var relY = e.pageY - $(this).offset().top;
-		var relPosition = "-" + relX / 4 + "px -" + relY / 2 + "px";
-		
-		$(this).css("backgroundPosition", relPosition);
+$(window).load(function() {
+	// Go for animations
+	$("body").removeClass("preload");
+	$(".main__title").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function(){
+		$(this).css("opacity", 1);
 	});
-*/
 	
 	// Click
 	$(".main__title").click(function() {

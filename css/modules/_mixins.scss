@@ -22,6 +22,14 @@
 	transition: $transition-property $transition-time $method;
 }
 
+@mixin animation-delay($duration) {
+	-webkit-animation-delay: $duration;
+	-moz-animation-delay: $duration;
+	-ms-animation-delay: $duration;
+	-o-animation-delay: $duration;
+	animation-delay: $duration;
+}
+
 @mixin animation($animate...) {
 	$max: length($animate);
 	$animations: '';

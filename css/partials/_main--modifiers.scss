@@ -15,8 +15,8 @@
 .main--barman {
 	.main__title {
 		background-image: url("../assets/images/barman_bg.png");
-		background-size: 80%;
 		@include background-clip(text);
+		@include animation-delay(0.3s);
 	}
 	
 	.main__links__link a {
@@ -30,8 +30,8 @@
 .main--central {
 	.main__title {
 		background-image: url("../assets/images/central_bg.png");
-		background-size: 70%;
 		@include background-clip(text);
+		@include animation-delay(0.6s);
 	}
 	
 	.main__links__link a {
@@ -45,8 +45,8 @@
 .main--district {
 	.main__title {
 		background-image: url("../assets/images/district_bg.png");
-		background-size: 65%;
 		@include background-clip(text);
+		@include animation-delay(0.9s);
 	}
 	
 	.main__links__link a {
@@ -60,9 +60,9 @@
 .main--hammersmith {
 	.main__title {
 		background-image: url("../assets/images/hammersmith_bg.png");
-		background-size: 40%;
 		background-position: -35px -25px;
 		@include background-clip(text);
+		@include animation-delay(1.2s);
 	}
 	
 	.main__links__link a {
@@ -76,8 +76,8 @@
 .main--metropolitan {
 	.main__title {
 		background-image: url("../assets/images/metropolitan_bg.png");
-		background-size: 80%;
 		@include background-clip(text);
+		@include animation-delay(1.5s);
 	}
 	
 	.main__links__link a {
@@ -91,8 +91,8 @@
 .main--overground {
 	.main__title {
 		background-image: url("../assets/images/overground_bg.png");
-		background-size: 50%;
 		@include background-clip(text);
+		@include animation-delay(1.8s);
 	}
 	
 	.main__links__link a {
@@ -107,6 +107,7 @@
 	.main__title {
 		background-image: url("../assets/images/victoria_bg.png");
 		@include background-clip(text);
+		@include animation-delay(2.1s);
 	}
 	
 	.main__links__link a {
@@ -120,8 +121,8 @@
 .main--waterloo {
 	.main__title {
 		background-image: url("../assets/images/waterloo_bg.png");
-		background-size: 70%;
 		@include background-clip(text);
+		@include animation-delay(2.4s);
 	}
 	
 	.main__links__link a {
