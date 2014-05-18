@@ -12,7 +12,11 @@ $(window).ready(function() {
 	
 	// Click
 	$(".main__title").click(function() {
-		$(".main__links--visible").removeClass("main__links--visible");
-		$(this).siblings(".main__links").addClass("main__links--visible");
+		if ($(this).siblings(".main__links").hasClass("main__links--visible")) {
+			$(this).siblings(".main__links").removeClass("main__links--visible");
+		} else {
+			$(".main__links--visible").removeClass("main__links--visible");
+			$(this).siblings(".main__links").addClass("main__links--visible");
+		}
 	});
 });

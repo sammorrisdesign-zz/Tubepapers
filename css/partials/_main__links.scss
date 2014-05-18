@@ -1,22 +1,22 @@
 .main__links {
 	width: 600px;
-	margin: 20px auto;
-	overflow: auto;
-	display: none;
-}
-
-.main__links__col {
-	float: left;
-	width: 150px;
+	padding: 20px auto;
+	margin: 0 auto;
+	overflow: hidden;
+	max-height: 0;
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	opacity: 0;
+	@include transition(all, .5s, ease-out);
 }
 
 .main__links__link {
 	display: block;
-	font-size: 1.8rem;
-	line-height: 2.2rem;
 	margin-bottom: 6px;
 }
 
 .main__links--visible {
-	display: block;
+	// @include animation("fade-in .2s 1");
+	max-height: 196px;
+	opacity: 1;
 }

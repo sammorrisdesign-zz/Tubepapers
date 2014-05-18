@@ -4,7 +4,7 @@
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $bakerloo;
 		&:hover {
 			color: $bakerloo-hover;
@@ -19,7 +19,7 @@
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $barman;
 		&:hover {
 			color: $barman-hover;
@@ -30,11 +30,11 @@
 .main--central {
 	.main__title {
 		background-image: url("../assets/images/central_bg.png");
-		background-size: 40%;
+		background-size: 70%;
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $central;
 		&:hover {
 			color: $central-hover;
@@ -49,10 +49,10 @@
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $district;
 		&:hover {
-			color: $district;
+			color: $district-hover;
 		}
 	}
 }
@@ -60,11 +60,12 @@
 .main--hammersmith {
 	.main__title {
 		background-image: url("../assets/images/hammersmith_bg.png");
-		background-size: 17%;
+		background-size: 40%;
+		background-position: -35px -25px;
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $hammersmith;
 		&:hover {
 			color: $hammersmith-hover;
@@ -79,7 +80,7 @@
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $metropolitan;
 		&:hover {
 			color: $metropolitan-hover;
@@ -94,7 +95,7 @@
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $overground;
 		&:hover {
 			color: $overground-hover;
@@ -108,7 +109,7 @@
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $victoria;
 		&:hover {
 			color: $victoria-hover;
@@ -119,11 +120,11 @@
 .main--waterloo {
 	.main__title {
 		background-image: url("../assets/images/waterloo_bg.png");
-		background-size: 40%;
+		background-size: 70%;
 		@include background-clip(text);
 	}
 	
-	.main__links__link {
+	.main__links__link a {
 		color: $waterloo;
 		&:hover {
 			color: $waterloo-hover;

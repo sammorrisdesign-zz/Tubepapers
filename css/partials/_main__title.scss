@@ -8,15 +8,9 @@ main {
 	font-weight: bold;
 	display: inline-block;
 	background-size: 100%;
-	@include text-fill-color(transparent);
 	background-position: center center;
+	@include text-fill-color(transparent);
 	@include transition(background-position, 0.5s, ease-out);
-}
-
-.main__title:hover {
-	opacity: 0.8;
-	cursor: pointer;
-	background-position-x: -500px;
 }
 
 .main__element {
@@ -24,4 +18,12 @@ main {
 	overflow: auto;
 	margin: 20px 0;
 	text-align: center;
+	
+	&:hover {
+		.main__title {
+			background-position-x: -100px;
+			opacity: 0.8;
+			cursor: pointer;
+		}
+	}
 }
