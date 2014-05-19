@@ -1,3 +1,8 @@
+// Randomise Favicon
+var favicons = ["favicon_bakerloo.png", "favicon_barman.png", "favicon_central.png", "favicon_district.png", "favicon_hammer.png", "favicon_metropolitian.png", "favicon_overground.png", "favicon_victoria.png", "favicon_waterloo.png"];
+$(".favicon").attr("href", "assets/images/" + favicons[Math.floor(Math.random() * favicons.length)]);
+
+
 $(window).load(function() {
 	// Go for animations
 	$("body").removeClass("preload");
