@@ -61,3 +61,11 @@
 		@content;
 	}
 }
+
+@mixin background-image-retina($url) {
+	background-image: url($url + ".png");
+	@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+		background-image: url($url + "@2x.png");
+		background-size: 800px 200px;
+	}
+}

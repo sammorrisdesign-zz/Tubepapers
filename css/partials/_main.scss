@@ -44,7 +44,7 @@ main {
 		&:hover {
 			.main__title {
 				cursor: pointer;
-				@include mq($from: tablet) {
+				@include mq($from: fixed) {
 					background-position-x: -200px;
 					opacity: 0.8;
 					cursor: pointer;

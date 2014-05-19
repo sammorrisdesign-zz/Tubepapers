@@ -1,6 +1,6 @@
 .main--bakerloo {
 	.main__title {
-		background-image: url("../assets/images/bakerloo_bg.png");
+		@include background-image-retina("../assets/images/bakerloo_bg");
 		@include background-clip(text);
 	}
 	
@@ -14,7 +14,7 @@
 
 .main--barman {
 	.main__title {
-		background-image: url("../assets/images/barman_bg.png");
+		@include background-image-retina("../assets/images/barman_bg");
 		@include background-clip(text);
 		@include animation-delay(0.3s);
 	}
@@ -29,7 +29,7 @@
 
 .main--central {
 	.main__title {
-		background-image: url("../assets/images/central_bg.png");
+		@include background-image-retina("../assets/images/central_bg");
 		@include background-clip(text);
 		@include animation-delay(0.6s);
 	}
@@ -44,7 +44,7 @@
 
 .main--district {
 	.main__title {
-		background-image: url("../assets/images/district_bg.png");
+		@include background-image-retina("../assets/images/district_bg");
 		@include background-clip(text);
 		@include animation-delay(0.9s);
 	}
@@ -59,7 +59,7 @@
 
 .main--hammersmith {
 	.main__title {
-		background-image: url("../assets/images/hammersmith_bg.png");
+		@include background-image-retina("../assets/images/hammersmith_bg");
 		background-position: -35px -25px;
 		@include background-clip(text);
 		@include animation-delay(1.2s);
@@ -75,7 +75,7 @@
 
 .main--metropolitan {
 	.main__title {
-		background-image: url("../assets/images/metropolitan_bg.png");
+		@include background-image-retina("../assets/images/metropolitan_bg");
 		@include background-clip(text);
 		@include animation-delay(1.5s);
 	}
@@ -90,7 +90,7 @@
 
 .main--overground {
 	.main__title {
-		background-image: url("../assets/images/overground_bg.png");
+		@include background-image-retina("../assets/images/overground_bg");
 		@include background-clip(text);
 		@include animation-delay(1.8s);
 	}
@@ -105,7 +105,7 @@
 
 .main--victoria {
 	.main__title {
-		background-image: url("../assets/images/victoria_bg.png");
+		@include background-image-retina("../assets/images/victoria_bg");
 		@include background-clip(text);
 		@include animation-delay(2.1s);
 	}
@@ -120,7 +120,7 @@
 
 .main--waterloo {
 	.main__title {
-		background-image: url("../assets/images/waterloo_bg.png");
+		@include background-image-retina("../assets/images/waterloo_bg");
 		@include background-clip(text);
 		@include animation-delay(2.4s);
 	}
