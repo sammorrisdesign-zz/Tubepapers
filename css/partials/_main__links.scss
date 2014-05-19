@@ -1,6 +1,5 @@
 .main__links {
-	width: 600px;
-	padding: 20px auto;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	max-height: 0;
@@ -13,6 +12,10 @@
 .main__links__link {
 	display: block;
 	margin-bottom: 6px;
+	
+	&:first-of-type {
+		margin-top: 12px;
+	}
 }
 
 .main__links--visible {

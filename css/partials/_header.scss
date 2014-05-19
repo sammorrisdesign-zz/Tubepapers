@@ -27,6 +27,11 @@ header {
 	margin: 20px auto;
 	font-size: 1.8rem;
 	line-height: 2.2rem;
-	width: 40%;
+	width: 360px;
 	color: $muted-grey;
+	
+	@include mq($to: mobile) {
+		width: 100%;
+		padding: 0 12px;
+	}
 }

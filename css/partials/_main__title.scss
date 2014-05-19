@@ -2,6 +2,13 @@ main {
 	margin-bottom: 80px;
 }
 
+.main__element {
+	width: 100%;
+	overflow: auto;
+	margin: 20px 0;
+	text-align: center;
+}
+
 .main__title {
 	font-size: 6.6rem;
 	text-transform: uppercase;
@@ -14,13 +21,16 @@ main {
 	background-repeat: no-repeat;
 	opacity: 0;
 	@include animation("main-in 1s");
-}
-
-.main__element {
-	width: 100%;
-	overflow: auto;
-	margin: 20px 0;
-	text-align: center;
+	
+	@include mq($to: tablet) {
+		width: 100%;
+		padding: 0 12px;
+		font-size: 4.8rem;
+	}
+	
+	@include mq($to: mobile) {
+		font-size: 3.2rem;
+	}
 }
 
 .finished {
