@@ -2,7 +2,7 @@
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	max-height: 0;
+	max-height: 0px;
 	font-size: 1.8rem;
 	line-height: 2.2rem;
 	opacity: 0;
@@ -15,6 +15,10 @@
 	
 	&:first-of-type {
 		margin-top: 12px;
+	}
+	
+	a {
+		@include transition(color, .1s, linear);
 	}
 }
 

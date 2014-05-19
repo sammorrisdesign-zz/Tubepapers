@@ -16,7 +16,7 @@
 	.main__title {
 		@include background-image-retina("../assets/images/barman_bg");
 		@include background-clip(text);
-		@include animation-delay(0.3s);
+		@include animation-delay(0.2s);
 	}
 	
 	.main__links__link a {
@@ -31,7 +31,7 @@
 	.main__title {
 		@include background-image-retina("../assets/images/central_bg");
 		@include background-clip(text);
-		@include animation-delay(0.6s);
+		@include animation-delay(0.4s);
 	}
 	
 	.main__links__link a {
@@ -46,7 +46,7 @@
 	.main__title {
 		@include background-image-retina("../assets/images/district_bg");
 		@include background-clip(text);
-		@include animation-delay(0.9s);
+		@include animation-delay(0.6s);
 	}
 	
 	.main__links__link a {
@@ -62,7 +62,7 @@
 		@include background-image-retina("../assets/images/hammersmith_bg");
 		background-position: -35px -25px;
 		@include background-clip(text);
-		@include animation-delay(1.2s);
+		@include animation-delay(0.8s);
 	}
 	
 	.main__links__link a {
@@ -77,7 +77,7 @@
 	.main__title {
 		@include background-image-retina("../assets/images/metropolitan_bg");
 		@include background-clip(text);
-		@include animation-delay(1.5s);
+		@include animation-delay(1.0s);
 	}
 	
 	.main__links__link a {
@@ -92,7 +92,7 @@
 	.main__title {
 		@include background-image-retina("../assets/images/overground_bg");
 		@include background-clip(text);
-		@include animation-delay(1.8s);
+		@include animation-delay(1.2s);
 	}
 	
 	.main__links__link a {
@@ -107,7 +107,7 @@
 	.main__title {
 		@include background-image-retina("../assets/images/victoria_bg");
 		@include background-clip(text);
-		@include animation-delay(2.1s);
+		@include animation-delay(1.4s);
 	}
 	
 	.main__links__link a {
@@ -122,7 +122,7 @@
 	.main__title {
 		@include background-image-retina("../assets/images/waterloo_bg");
 		@include background-clip(text);
-		@include animation-delay(2.4s);
+		@include animation-delay(1.6s);
 	}
 	
 	.main__links__link a {
