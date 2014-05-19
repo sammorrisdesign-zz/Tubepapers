@@ -37,9 +37,11 @@ main {
 	.main__element {
 		&:hover {
 			.main__title {
-				background-position-x: -200px;
-				opacity: 0.8;
-				cursor: pointer;
+				@include mq($from: tablet) {
+					background-position-x: -200px;
+					opacity: 0.8;
+					cursor: pointer;
+				}
 			}
 		}
 	}
