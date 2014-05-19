@@ -4,10 +4,11 @@ header {
 }
 
 .header__logo {
-	text-transform: uppercase;
-	color: $grey;
-	font-size: 3.0rem;
-	font-weight: bold;
+	background-image: url("../assets/images/logo.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 43px;
+	width: 200px;
 	margin: 0 auto;
 }
 
