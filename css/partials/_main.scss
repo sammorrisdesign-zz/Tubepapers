@@ -7,6 +7,12 @@ main {
 	overflow: auto;
 	margin: 20px 0;
 	text-align: center;
+	
+	&:hover {
+		.main__title {
+			cursor: default;
+		}
+	}
 }
 
 .main__title {
@@ -37,6 +43,7 @@ main {
 	.main__element {
 		&:hover {
 			.main__title {
+				cursor: pointer;
 				@include mq($from: tablet) {
 					background-position-x: -200px;
 					opacity: 0.8;

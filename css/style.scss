@@ -1,15 +1,16 @@
 // Vendors
-@import "vendor/sass-mq/_mq.scss";
-@import "vendor/reset/_reset.scss";
+@import "vendor/sass-mq/_mq";
+@import "vendor/reset/_reset";
 
 // Modules
-@import "modules/_colours.scss";
-@import "modules/_grid.scss";
-@import "modules/_mixins.scss";
+@import "modules/_colours";
+@import "modules/_grid";
+@import "modules/_mixins";
 
 // Partials
-@import "partials/_base.scss";
-@import "partials/_header.scss";
-@import "partials/_main__title.scss";
-@import "partials/_main__links.scss";
-@import "partials/_main--modifiers.scss";
+@import "partials/_base";
+@import "partials/_header";
+@import "partials/_main";
+@import "partials/_main__links";
+@import "partials/_main--modifiers";
+@import "partials/_footer";
