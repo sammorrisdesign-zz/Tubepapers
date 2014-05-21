@@ -20,7 +20,6 @@ main {
 	font-weight: bold;
 	display: inline-block;
 	width: 600px;
-	background-position: center center;
 	@include text-fill-color(transparent);
 	@include transition(background-position, 0.5s, ease-out);
 	background-repeat: no-repeat;
