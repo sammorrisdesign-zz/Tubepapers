@@ -1,5 +1,6 @@
 .main--bakerloo {
 	.main__title {
+		color: $bakerloo;
 		@include background-image-retina("../assets/images/bakerloo_bg");
 		@include background-clip(text);
 	}
@@ -14,6 +15,7 @@
 
 .main--barman {
 	.main__title {
+		color: $barman;
 		@include background-image-retina("../assets/images/barman_bg");
 		@include background-clip(text);
 		@include animation-delay(0.2s);
@@ -29,6 +31,7 @@
 
 .main--central {
 	.main__title {
+		color: $central;
 		@include background-image-retina("../assets/images/central_bg");
 		@include background-clip(text);
 		@include animation-delay(0.4s);
@@ -44,6 +47,7 @@
 
 .main--district {
 	.main__title {
+		color: $district;
 		@include background-image-retina("../assets/images/district_bg");
 		@include background-clip(text);
 		@include animation-delay(0.6s);
@@ -59,6 +63,7 @@
 
 .main--hammersmith {
 	.main__title {
+		color: $hammersmith;
 		@include background-image-retina("../assets/images/hammersmith_bg");
 		background-position: -35px -25px;
 		@include background-clip(text);
@@ -75,6 +80,7 @@
 
 .main--metropolitan {
 	.main__title {
+		color: $metropolitan;
 		@include background-image-retina("../assets/images/metropolitan_bg");
 		@include background-clip(text);
 		@include animation-delay(1.0s);
@@ -90,6 +96,7 @@
 
 .main--overground {
 	.main__title {
+		color: $overground;
 		@include background-image-retina("../assets/images/overground_bg");
 		@include background-clip(text);
 		@include animation-delay(1.2s);
@@ -105,6 +112,7 @@
 
 .main--victoria {
 	.main__title {
+		color: $victoria;
 		@include background-image-retina("../assets/images/victoria_bg");
 		@include background-clip(text);
 		@include animation-delay(1.4s);
@@ -120,6 +128,7 @@
 
 .main--waterloo {
 	.main__title {
+		color: $waterloo;
 		@include background-image-retina("../assets/images/waterloo_bg");
 		@include background-clip(text);
 		@include animation-delay(1.6s);

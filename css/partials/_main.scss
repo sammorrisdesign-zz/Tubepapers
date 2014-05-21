@@ -26,6 +26,10 @@ main {
 	opacity: 0;
 	@include animation("main-in 1s");
 	
+	@-moz-document url-prefix() {
+		background: none !important;
+	}
+	
 	@include mq($to: tablet) {
 		width: 100%;
 		padding: 0 12px;
@@ -54,7 +58,7 @@ main {
 
 @include keyframes(main-in) {
 	0% {
-		opacity: 1;
+		opacity: 0;
 		background-position: 600px;
 	}
 	30% {

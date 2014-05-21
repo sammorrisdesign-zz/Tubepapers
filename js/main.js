@@ -13,7 +13,7 @@ $(window).load(function() {
 	$(".main__element:last-of-type .main__title").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function(){
 		$("body").addClass("finished");
 	});
-	
+
 	// Click
 	$(".main__title").click(function() {
 		if ($(this).siblings(".main__links").hasClass("main__links--visible")) {
