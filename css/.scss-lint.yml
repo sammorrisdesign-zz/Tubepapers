@@ -1,0 +1,20 @@
+# Custom config for scss-lint
+# Find an example of all options here: https://github.com/causes/scss-lint/blob/master/config/default.yml
+
+linters:
+  Indentation:
+    enabled: true
+    width: 4
+
+  PropertySortOrder:
+    enabled: false
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 4
+
+  NameFormat:
+    convention: BEM
+
+  TrailingSemicolonAfterPropertyValue:
+    enabled: false
