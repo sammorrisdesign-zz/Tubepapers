@@ -1,37 +1,37 @@
 header {
-	margin: 40px 0 60px 0;
-	text-align: center;
+    margin: 40px 0 60px;
+    text-align: center;
 }
 
 .header__logo {
-	background-image: url("../assets/images/logo.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 43px;
-	width: 200px;
-	margin: 0 auto;
+    background-image: url("../assets/images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 43px;
+    width: 200px;
+    margin: 0 auto;
 }
 
 .header__logo__papers {
-	color: $white;
-	font-size: 2.4rem;
-	margin-left: 4px;
-	background-image: linear-gradient(to bottom,$white 50%,$white 50%);
-	background-repeat: repeat-x;
-	background-size: 2px 2px;
-	background-position: 2px 20px;
-	vertical-align: top;
+    color: $white;
+    font-size: 2.4rem;
+    margin-left: 4px;
+    background-image: linear-gradient(to bottom, $white 50%, $white 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 2px 20px;
+    vertical-align: top;
 }
 
 .header__description {
-	margin: 20px auto;
-	font-size: 1.8rem;
-	line-height: 2.2rem;
-	width: 360px;
-	color: $muted-grey;
-	
-	@include mq($to: mobile) {
-		width: 100%;
-		padding: 0 12px;
-	}
+    margin: 20px auto;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    width: 360px;
+    color: $muted-grey;
+    
+    @include mq($to: mobile) {
+        width: 100%;
+        padding: 0 12px;
+    }
 }

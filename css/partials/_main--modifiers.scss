@@ -1,143 +1,152 @@
 .main--bakerloo {
-	.main__title {
-		color: $bakerloo;
-		@include background-image-retina("../assets/images/bakerloo_bg");
-		@include background-clip(text);
-	}
-	
-	.main__links__link a {
-		color: $bakerloo;
-		&:hover {
-			color: $bakerloo-hover;
-		}
-	}
+    .main__title {
+        color: $bakerloo;
+        @include background-image-retina("../assets/images/bakerloo_bg");
+        @include background-clip(text);
+    }
+
+    .main__links__link a {
+        color: $bakerloo;
+
+        &:hover {
+            color: $bakerloo-hover;
+        }
+    }
 }
 
 .main--barman {
-	.main__title {
-		color: $barman;
-		@include background-image-retina("../assets/images/barman_bg");
-		@include background-clip(text);
-		@include animation-delay(0.2s);
-	}
-	
-	.main__links__link a {
-		color: $barman;
-		&:hover {
-			color: $barman-hover;
-		}
-	}
+    .main__title {
+        color: $barman;
+        @include background-image-retina("../assets/images/barman_bg");
+        @include background-clip(text);
+        @include animation-delay(.2s);
+    }
+
+    .main__links__link a {
+        color: $barman;
+
+        &:hover {
+            color: $barman-hover;
+        }
+    }
 }
 
 .main--central {
-	.main__title {
-		color: $central;
-		@include background-image-retina("../assets/images/central_bg");
-		@include background-clip(text);
-		@include animation-delay(0.4s);
-	}
-	
-	.main__links__link a {
-		color: $central;
-		&:hover {
-			color: $central-hover;
-		}
-	}
+    .main__title {
+        color: $central;
+        @include background-image-retina("../assets/images/central_bg");
+        @include background-clip(text);
+        @include animation-delay(.4s);
+    }
+
+    .main__links__link a {
+        color: $central;
+
+        &:hover {
+            color: $central-hover;
+        }
+    }
 }
 
 .main--district {
-	.main__title {
-		color: $district;
-		@include background-image-retina("../assets/images/district_bg");
-		@include background-clip(text);
-		@include animation-delay(0.6s);
-	}
-	
-	.main__links__link a {
-		color: $district;
-		&:hover {
-			color: $district-hover;
-		}
-	}
+    .main__title {
+        color: $district;
+        @include background-image-retina("../assets/images/district_bg");
+        @include background-clip(text);
+        @include animation-delay(.6s);
+    }
+
+    .main__links__link a {
+        color: $district;
+
+        &:hover {
+            color: $district-hover;
+        }
+    }
 }
 
 .main--hammersmith {
-	.main__title {
-		color: $hammersmith;
-		@include background-image-retina("../assets/images/hammersmith_bg");
-		background-position: -35px -25px;
-		@include background-clip(text);
-		@include animation-delay(0.8s);
-	}
-	
-	.main__links__link a {
-		color: $hammersmith;
-		&:hover {
-			color: $hammersmith-hover;
-		}
-	}
+    .main__title {
+        color: $hammersmith;
+        @include background-image-retina("../assets/images/hammersmith_bg");
+        background-position: -35px -25px;
+        @include background-clip(text);
+        @include animation-delay(.8s);
+    }
+
+    .main__links__link a {
+        color: $hammersmith;
+
+        &:hover {
+            color: $hammersmith-hover;
+        }
+    }
 }
 
 .main--metropolitan {
-	.main__title {
-		color: $metropolitan;
-		@include background-image-retina("../assets/images/metropolitan_bg");
-		@include background-clip(text);
-		@include animation-delay(1.0s);
-	}
-	
-	.main__links__link a {
-		color: $metropolitan;
-		&:hover {
-			color: $metropolitan-hover;
-		}
-	}
+    .main__title {
+        color: $metropolitan;
+        @include background-image-retina("../assets/images/metropolitan_bg");
+        @include background-clip(text);
+        @include animation-delay(1s);
+    }
+
+    .main__links__link a {
+        color: $metropolitan;
+
+        &:hover {
+            color: $metropolitan-hover;
+        }
+    }
 }
 
 .main--overground {
-	.main__title {
-		color: $overground;
-		@include background-image-retina("../assets/images/overground_bg");
-		@include background-clip(text);
-		@include animation-delay(1.2s);
-	}
-	
-	.main__links__link a {
-		color: $overground;
-		&:hover {
-			color: $overground-hover;
-		}
-	}
+    .main__title {
+        color: $overground;
+        @include background-image-retina("../assets/images/overground_bg");
+        @include background-clip(text);
+        @include animation-delay(1.2s);
+    }
+
+    .main__links__link a {
+        color: $overground;
+
+        &:hover {
+            color: $overground-hover;
+        }
+    }
 }
 
 .main--victoria {
-	.main__title {
-		color: $victoria;
-		@include background-image-retina("../assets/images/victoria_bg");
-		@include background-clip(text);
-		@include animation-delay(1.4s);
-	}
-	
-	.main__links__link a {
-		color: $victoria;
-		&:hover {
-			color: $victoria-hover;
-		}
-	}
+    .main__title {
+        color: $victoria;
+        @include background-image-retina("../assets/images/victoria_bg");
+        @include background-clip(text);
+        @include animation-delay(1.4s);
+    }
+
+    .main__links__link a {
+        color: $victoria;
+
+        &:hover {
+            color: $victoria-hover;
+        }
+    }
 }
 
 .main--waterloo {
-	.main__title {
-		color: $waterloo;
-		@include background-image-retina("../assets/images/waterloo_bg");
-		@include background-clip(text);
-		@include animation-delay(1.6s);
-	}
-	
-	.main__links__link a {
-		color: $waterloo;
-		&:hover {
-			color: $waterloo-hover;
-		}
-	}
+    .main__title {
+        color: $waterloo;
+        @include background-image-retina("../assets/images/waterloo_bg");
+        @include background-clip(text);
+        @include animation-delay(1.6s);
+    }
+
+    .main__links__link a {
+        color: $waterloo;
+
+        &:hover {
+            color: $waterloo-hover;
+        }
+    }
 }

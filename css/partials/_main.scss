@@ -1,71 +1,74 @@
 main {
-	margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .main__element {
-	width: 100%;
-	margin: 20px 0;
-	text-align: center;
-	
-	&:hover {
-		.main__title {
-			cursor: default;
-		}
-	}
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    
+    &:hover {
+        .main__title {
+            cursor: default;
+        }
+    }
 }
 
 .main__title {
-	font-size: 6.6rem;
-	text-transform: uppercase;
-	font-weight: bold;
-	display: inline-block;
-	width: 600px;
-	@include text-fill-color(transparent);
-	@include transition(background-position, 0.5s, ease-out);
-	background-repeat: no-repeat;
-	opacity: 0;
-	@include animation("main-in 1s");
-	
-	@-moz-document url-prefix() {
-		background: none !important;
-	}
-	
-	@include mq($to: tablet) {
-		width: 100%;
-		padding: 0 12px;
-		font-size: 4.8rem;
-	}
-	
-	@include mq($to: mobile) {
-		font-size: 3.2rem;
-	}
+    font-size: 6.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    width: 600px;
+    @include text-fill-color(transparent);
+    @include transition(background-position, .5s, ease-out);
+    background-repeat: no-repeat;
+    opacity: 0;
+    @include animation("main-in 1s");
+    
+    @-moz-document url-prefix() {
+        background: none !important;
+    }
+    
+    @include mq($to: tablet) {
+        width: 100%;
+        padding: 0 12px;
+        font-size: 4.8rem;
+    }
+    
+    @include mq($to: mobile) {
+        font-size: 3.2rem;
+    }
 }
 
 .finished {
-	.main__element {
-		&:hover {
-			.main__title {
-				cursor: pointer;
-				@include mq($from: fixed) {
-					background-position-x: -200px;
-					opacity: 0.8;
-					cursor: pointer;
-				}
-			}
-		}
-	}
+    .main__element {
+        &:hover {
+            .main__title {
+                cursor: pointer;
+
+                @include mq($from: fixed) {
+                    background-position-x: -200px;
+                    opacity: .8;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }
 
 @include keyframes(main-in) {
-	0% {
-		opacity: 0;
-		background-position: 600px;
-	}
-	30% {
-		opacity: 1;
-		background-position: 600px;
-	}
-	100% {
-		opacity: 1;
-	}
+    0% {
+        opacity: 0;
+        background-position: 600px;
+    }
+
+    30% {
+        opacity: 1;
+        background-position: 600px;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

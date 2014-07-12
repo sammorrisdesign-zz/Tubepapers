@@ -17,7 +17,11 @@ linters:
     enabled: true
     max_depth: 4
 
+  StringQuotes:
+    style: double_quotes
+
   NameFormat:
+    enabled: false
     convention: BEM
 
   TrailingSemicolonAfterPropertyValue:
