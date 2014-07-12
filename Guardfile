@@ -7,7 +7,7 @@ end
 # Sass Lint
 guard :shell do
     watch(%r{css/.+\.scss}) {
-        |m| eager 'scss-lint css -e css/style.css'
+        |m| eager 'scss-lint css'
     }
 end
 
