@@ -18,18 +18,17 @@ main {
     display: block;
     width: 600px;
     margin: 0 auto 12px auto;
-    @include transition(background-position, .5s, ease-out);
     background-repeat: no-repeat;
     opacity: 0;
     @include animation("main-in 1s");
+    @include transition(background-position, .5s, ease-out);
 
     @include mq($to: tablet) {
-        width: 100%;
-        padding: 0 12px;
+        width: 95%;
     }
-    
+
     @include mq($to: mobile) {
-    
+        margin-bottom: 6px;
     }
 }
 
