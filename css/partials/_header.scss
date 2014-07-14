@@ -1,6 +1,10 @@
 header {
     margin: 40px 0 60px;
     text-align: center;
+
+    @include mq($to: mobile) {
+        margin-bottom: 20px;
+    }
 }
 
 .header__logo {
@@ -33,5 +37,6 @@ header {
     @include mq($to: mobile) {
         width: 100%;
         padding: 0 12px;
+        font-size: 1.6rem;
     }
 }
