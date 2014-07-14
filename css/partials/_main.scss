@@ -6,7 +6,7 @@ main {
     width: 100%;
     margin: 20px 0;
     text-align: center;
-    
+
     &:hover {
         .main__title {
             cursor: default;
@@ -15,29 +15,21 @@ main {
 }
 
 .main__title {
-    font-size: 6.6rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: inline-block;
+    display: block;
     width: 600px;
-    @include text-fill-color(transparent);
+    margin: 0 auto 12px auto;
     @include transition(background-position, .5s, ease-out);
     background-repeat: no-repeat;
     opacity: 0;
     @include animation("main-in 1s");
-    
-    @-moz-document url-prefix() {
-        background: none !important;
-    }
-    
+
     @include mq($to: tablet) {
         width: 100%;
         padding: 0 12px;
-        font-size: 4.8rem;
     }
     
     @include mq($to: mobile) {
-        font-size: 3.2rem;
+    
     }
 }
 

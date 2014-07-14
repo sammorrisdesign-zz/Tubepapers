@@ -1,8 +1,6 @@
 .main--bakerloo {
     .main__title {
-        color: $bakerloo;
         @include background-image-retina("../assets/images/bg_bakerloo");
-        @include background-clip(text);
     }
 
     .main__links__link a {
@@ -16,9 +14,7 @@
 
 .main--barman {
     .main__title {
-        color: $barman;
         @include background-image-retina("../assets/images/bg_barman");
-        @include background-clip(text);
         @include animation-delay(.2s);
     }
 
@@ -33,9 +29,7 @@
 
 .main--central {
     .main__title {
-        color: $central;
         @include background-image-retina("../assets/images/bg_central");
-        @include background-clip(text);
         @include animation-delay(.4s);
     }
 
@@ -50,9 +44,7 @@
 
 .main--district {
     .main__title {
-        color: $district;
         @include background-image-retina("../assets/images/bg_district");
-        @include background-clip(text);
         @include animation-delay(.6s);
     }
 
@@ -67,10 +59,8 @@
 
 .main--hammersmith {
     .main__title {
-        color: $hammersmith;
         @include background-image-retina("../assets/images/bg_hammersmith");
         background-position: -35px -25px;
-        @include background-clip(text);
         @include animation-delay(.8s);
     }
 
@@ -85,9 +75,7 @@
 
 .main--metropolitan {
     .main__title {
-        color: $metropolitan;
         @include background-image-retina("../assets/images/bg_metropolitan");
-        @include background-clip(text);
         @include animation-delay(1s);
     }
 
@@ -102,9 +90,7 @@
 
 .main--overground {
     .main__title {
-        color: $overground;
         @include background-image-retina("../assets/images/bg_overground");
-        @include background-clip(text);
         @include animation-delay(1.2s);
     }
 
@@ -119,9 +105,7 @@
 
 .main--victoria {
     .main__title {
-        color: $victoria;
         @include background-image-retina("../assets/images/bg_victoria");
-        @include background-clip(text);
         @include animation-delay(1.4s);
     }
 
@@ -136,9 +120,7 @@
 
 .main--waterloo {
     .main__title {
-        color: $waterloo;
         @include background-image-retina("../assets/images/bg_waterloo");
-        @include background-clip(text);
         @include animation-delay(1.6s);
     }
 
