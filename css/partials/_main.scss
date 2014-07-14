@@ -25,6 +25,7 @@ main {
 
     @include mq($to: tablet) {
         width: 95%;
+        max-width: 600px;
     }
 
     @include mq($to: mobile) {
