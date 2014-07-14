@@ -1,13 +1,13 @@
 * {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 html {
+    font-family: "p22-underground", sans-serif;
     font-size: 62.5%;
     -webkit-font-smoothing: antialiased;
-    font-family: "p22-underground", sans-serif;
 }
 
 html,
@@ -18,10 +18,10 @@ body {
 }
 
 .container {
-    width: 900px;
-    margin: 0 auto;
     overflow: auto;
+    width: 900px;
     padding: 0 20px;
+    margin: 0 auto;
 
     @include mq($to: fixed) {
         width: 100%;
@@ -30,9 +30,9 @@ body {
 
 a {
     color: $grey;
-    transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
 
     &:hover {
         opacity: .75;
@@ -40,14 +40,14 @@ a {
 }
 
 .preload * {
-    -webkit-transition: none !important;
     -moz-transition: none !important;
     -ms-transition: none !important;
     -o-transition: none !important;
+    -webkit-transition: none !important;
     transition: none !important;
-    -webkit-animation: none !important;
     -moz-animation: none !important;
     -ms-animation: none !important;
     -o-animation: none !important;
+    -webkit-animation: none !important;
     animation: none !important;
 }

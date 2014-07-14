@@ -17,7 +17,7 @@ main {
 .main__title {
     display: block;
     width: 600px;
-    margin: 0 auto 12px auto;
+    margin: 0 auto 12px;
     background-repeat: no-repeat;
     opacity: 0;
     @include animation("main-in 1s");
@@ -51,13 +51,13 @@ main {
 
 @include keyframes(main-in) {
     0% {
-        opacity: 0;
         background-position: 600px;
+        opacity: 0;
     }
 
     30% {
-        opacity: 1;
         background-position: 600px;
+        opacity: 1;
     }
 
     100% {

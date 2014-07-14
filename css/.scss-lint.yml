@@ -11,7 +11,7 @@ linters:
     width: 4
 
   PropertySortOrder:
-    enabled: false
+    order: ['display', 'overflow', 'box-sizing', 'width', 'max-width', 'height', 'max-height', 'padding', 'border', 'margin', 'margin-left', 'background', 'background-image', 'background-repeat', 'background-size', 'background-position', 'color', 'font-family', 'font-size', 'line-height', 'text-align', 'cursor']
 
   SelectorDepth:
     enabled: true
@@ -26,3 +26,8 @@ linters:
 
   TrailingSemicolonAfterPropertyValue:
     enabled: false
+    
+    position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
