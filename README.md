@@ -1,7 +1,7 @@
 Tubepapers
 ==========
 
-A collection of backgrounds based on London Underground seat patterns
+A collection of backgrounds based on London Underground seat patterns. Full site can be found at [Tubepapers.com](http://www.tubepapers.com)
 
 ## Installation
 
