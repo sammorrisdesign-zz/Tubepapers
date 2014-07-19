@@ -1,5 +1,29 @@
 main {
-    margin-bottom: 80px;
+    width: 360px;
+    padding: 20px;
+    border: 2px solid rgba($muted-grey, .2);
+    margin: 20px auto 80px;
+    color: $grey;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+
+    @include mq($to: mobile) {
+        width: 90%;
+        padding: 12px;
+        font-size: 1.6rem;
+    }
+
+    p:first-of-type {
+        margin-bottom: 20px;
+    }
+
+    span {
+        color: #000;
+        display: block;
+        font-weight: bold;
+        font-size: 140%;
+        margin-bottom: 10px;
+    }
 }
 
 .main__element {
